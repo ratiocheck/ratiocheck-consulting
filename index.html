@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <style>
+      .my-primary {
+        color: white ;
+        background-color: red;
+      }
+      .my-primary:focus, .my-primary:hover {
+        color: white ;
+        background-color: darkRed;
+      }
+      a {
+        color: red;
+      }
+      a:focus, a:hover {
+        color: darkRed;
+      }
+      .btn-link {
+        color: red;
+      }
+      .btn-link:focus, .btn-link:hover {
+        color: darkRed;
+      }
+    </style>
+    <title>ratiocheck</title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <!-- Navigation -->
+      <div class="row mb-3">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+              <img src="ratiocheck.png" width="200" height="40" class="d-inline-block align-top" alt="ratiocheck">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Deutsch <span class="sr-only">(aktiv)</span></a>
+                <!-- <a class="nav-item nav-link" href="#">English</a> -->
+                <a class="nav-item nav-link" data-toggle="modal" data-target="#imprintModal" style="cursor: pointer">Impressum</a>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Modal -->
+          <div class="modal fade" id="imprintModal" tabindex="-1" role="dialog" aria-labelledby="imprintModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="imprintModalCenterTitle">Impressum</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ratiocheck GmbH<br />
+                    <br />
+                    Postanschrift:<br />
+                    Am Trauben 54<br />
+                    63303 Dreieich<br />
+                    <br />
+                    Telefon:<br />
+                    <a href="tel:0049610374771">+49 6103 74771</a><br />
+                    <br />
+                    E-Mail:<br />
+                    <a href="mailto:info@ratiocheck.com">info@ratiocheck.com</a><br />
+                    <br />
+                    Geschäftsführer: Joachim Bärenfänger<br />
+                    Registergericht: Amtsgericht Mannheim<br />
+                    Handelsregister-Nummer: HRB 711866<br />
+                    Umsatzsteuer-Identifikationsnummer: DE277487355<br />
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="row mb-3">
+        <div class="col">
+          <div class="jumbotron mb-0">
+            <h1 class="display-5">Willkommen!</h1>
+            <p class="lead">
+              Wir sind ein Beratungsunternehmen, das Ihnen mit immer aktuellem Wissen bezüglich der richtigen Gestaltung, der funktionierenden Einführung, der notwendigen Kontrolle und der unentwegten Anpassung von Management- und Informationssystemen beiseite steht.
+            </p>
+            <hr class="my-4">
+            <p>
+              Wir unterstützen Sie auch bei der zügigen Zertifizierung Ihres Managementsystems, z.B. nach ISO 14001, ISO 9001 usw.
+            </p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn my-primary" data-toggle="modal" data-target="#contactModalCenter">
+              Kontaktieren Sie uns!
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalCenterTitle">Kontakt</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Rufen Sie uns an:<br />
+                    <a href="tel:0049610374771">+49 6103 74771</a><br />
+                    <br />
+                    Schicken Sie uns eine E-Mail:<br />
+                    <a href="mailto:info@ratiocheck.com">info@ratiocheck.com</a><br />
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Collapse -->
+      <div class="row mb-3">
+        <div class="col">
+          <div class="accordion" id="accordionExample">
+            
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <strong>Was wir tun</strong>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>Wer wir sind</strong>
+                  </button>
+                </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <strong>Was andere sagen</strong>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="row mb-3">
+        <div class="col-6">
+          &copy; ratiocheck GmbH 2018
+        </div>
+        <div class="col-6 text-right">
+          <a href="#">&uarr; nach oben</a>
+      </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
