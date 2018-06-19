@@ -35,7 +35,7 @@
     <div class="container">
       
       <!-- Navigation -->
-      <div class="row mb-3">
+      <div class="row sticky-top mb-3">
         <div class="col">
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">
@@ -47,47 +47,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Deutsch <span class="sr-only">(aktiv)</span></a>
-                <!-- <a class="nav-item nav-link" href="#">English</a> -->
-                <a class="nav-item nav-link" data-toggle="modal" data-target="#imprintModal" style="cursor: pointer">Impressum</a>
+                <a class="nav-item nav-link" href="#">English (coming soon)</a>
               </div>
             </div>
           </nav>
-
-          <!-- Modal -->
-          <div class="modal fade" id="imprintModal" tabindex="-1" role="dialog" aria-labelledby="imprintModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="imprintModalCenterTitle">Impressum</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    ratiocheck GmbH<br />
-                    <br />
-                    Postanschrift:<br />
-                    Am Trauben 54<br />
-                    63303 Dreieich<br />
-                    <br />
-                    Telefon:<br />
-                    <a href="tel:0049610374771">+49 6103 74771</a><br />
-                    <br />
-                    E-Mail:<br />
-                    <a href="mailto:info@ratiocheck.com">info@ratiocheck.com</a><br />
-                    <br />
-                    Geschäftsführer: Joachim Bärenfänger<br />
-                    Registergericht: Amtsgericht Mannheim<br />
-                    Handelsregister-Nummer: HRB 711866<br />
-                    Umsatzsteuer-Identifikationsnummer: DE277487355<br />
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
         </div>
       </div>
 
@@ -199,11 +162,53 @@
 
       <!-- Footer -->
       <div class="row mb-3">
-        <div class="col-6">
-          &copy; ratiocheck GmbH 2011 - 2018
+        <div class="col-8 text-left">
+          &copy; Copyright<br />
+          Quality&nbsp;Data&nbsp;Systems&nbsp;GmbH 1990&nbsp;-&nbsp;2011<br />
+          ratiocheck&nbsp;GmbH 2011&nbsp;-&nbsp;2018
         </div>
-        <div class="col-6 text-right">
+        <div class="col-4 text-right">
+          <a href="#" data-toggle="modal" data-target="#imprintModal">Impressum</a><br />
           <a href="#">&uarr; nach oben</a>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="imprintModal" tabindex="-1" role="dialog" aria-labelledby="imprintModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="imprintModalCenterTitle">Impressum</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ratiocheck GmbH<br />
+              <br />
+              Postanschrift:<br />
+              Am Trauben 54<br />
+              63303 Dreieich<br />
+              <br />
+              Telefon:<br />
+              <a href="tel:0049610374771">+49 6103 74771</a><br />
+              <br />
+              E-Mail:<br />
+              <a href="mailto:info@ratiocheck.com">info@ratiocheck.com</a><br />
+              <br />
+              Geschäftsführer: Joachim Bärenfänger<br />
+              Registergericht: Amtsgericht Mannheim<br />
+              Handelsregister-Nummer: HRB 711866<br />
+              Umsatzsteuer-Identifikationsnummer: DE277487355<br />
+              <br />
+              &copy; Quality Data Systems GmbH 1990 - 2011<br />
+              &copy; ratiocheck GmbH 2011 - 2018
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
